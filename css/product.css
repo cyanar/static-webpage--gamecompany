@@ -1,0 +1,129 @@
+.header {
+	margin-bottom:0;
+}
+/*.footer {
+	margin:0;
+}*/
+/*二级页面content主要内容部分*/
+.se-content {
+	height: 465px;
+}
+.se-content .bread-nav {
+	height: 40px;
+	line-height: 40px;
+	color:#666;
+}
+.se-content .bread-nav a {
+	width: 30px;
+	height: 15px;
+	color: #666;
+	padding-left:20px;
+	background:url(../images/home.png) no-repeat center left;
+}
+.se-content .bread-nav a:hover {
+	color: #f4790c;
+}
+.se-content .main {
+	width: 100%;
+}
+.se-content .main .main-l {
+	float:left;
+	width: 226px;
+	height: 412px;
+	padding-top:12px;
+	padding-left:18px;
+	text-align: center;
+	background: #f5f5f5;
+}
+.se-content .main .main-l .nav {
+	width: 206px;
+	height: 153px;
+	background: #fff;
+	margin-bottom: 30px;
+}
+.se-content .main .main-l .nav li {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px dashed #f5f5f5;
+}
+.se-content .main .main-l .nav li a {
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color:#999;
+}
+.se-content .main .main-l .nav li a:hover {
+	color:#fff;
+	background: #ffb910;
+}
+.se-content .main .main-l .nav li:hover {
+	border-bottom:1px dashed #ffb910;
+}
+.se-content .main .main-l .nav li.on {
+    border-bottom: 1px dashed #ffb910;
+}
+.se-content .main .main-l .nav li.on a {
+	color:#fff;
+	background:#ffb910;
+}
+.se-content .main .main-l .nav li.on a:after {
+	content: "";
+    display: inline-block;
+    border-left: 8px solid #fff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: none;
+    position: relative;
+    left:16px;
+}
+.se-content .main .main-l .weixin {
+	width: 206px;
+	height: 168px;
+	color:#666;
+}
+.se-content .main .main-l .weixin img{
+   width: 168px;
+}
+/*二级页面主要内容右侧图文区*/
+.se-content .main .main-r {
+	width: 730px;
+	height: 414px;
+	float:right;
+}
+.se-content .main .main-r li {
+	float:left;
+	width: 225px;
+	height: 122px;
+	padding-top:16px;
+	padding-left:16px;
+}
+.se-content .main .main-r li img {
+	float:left;
+	width: 100px;
+	height: 100px;
+}
+.se-content .main .main-r li p.right {
+	float:left;
+	margin-left:14px;
+	padding-top:6px;
+	font-size: 16px;
+}
+.se-content .main .main-r li p.right a {
+	/*font-size:15px;*/
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+	color:#666;
+}
+.se-content .main .main-r li p.right span {
+	color:#999;
+	font-size: 12px;
+}
+.se-content .main .main-r li p.right i {
+	display: block;
+	margin-top:6px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/sys_1.png) no-repeat 0 -2px;
+}

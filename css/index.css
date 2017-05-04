@@ -1,0 +1,334 @@
+
+/*banner区域*/
+.banner {
+	padding-top:18px;
+	overflow:hidden;
+}
+.banner .banner-pics {
+	float:left;
+	width: 700px;
+	height: 350px;
+	position:relative;
+}
+.banner .banner-pics ul {
+	position:absolute;
+	top:0;
+	left:0;
+}
+.banner .banner-pics ul li {
+	display:none;
+}
+.banner .banner-pics ul li img {
+	width: 700px;
+	height: 350px;
+}
+.banner .banner-pics ul li.on {
+	display:block;
+}
+.banner .banner-pics ol {
+	position:absolute;
+	bottom:5px;
+	right:0;
+	height: 16px;
+	width: 130px;
+	padding-left:10px;
+}
+.banner .banner-pics ol li {
+	float:left;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	cursor:pointer;
+	background: rgba(0,0,0,0.5);
+	margin-right:10px;
+}
+.banner .banner-pics ol li.on {
+	background: #ffb910;
+}
+.banner .banner-news {
+	float:right;
+	width: 260px;
+}
+.banner .banner-news .title {
+	height:42px;
+	border-bottom:2px solid #ea551e;
+}
+.banner .banner-news .title h2 {
+	float:left;
+	line-height: 42px;
+	font-size: 16px;
+	color: #333;
+}
+.banner .banner-news .title a {
+	float:right;
+	width: 16px;
+	height: 16px;
+	margin-top:14px;
+	background: url(../images/icon.png) no-repeat -300px 0;
+}
+.banner .banner-news .lists li {
+   height: 42px;
+   line-height: 42px;
+   border-bottom:1px dashed #dddddd;
+}
+.banner .banner-news .lists li:before {
+	content:"";
+	display: inline-block;
+	width: 3px;
+	height: 6px;
+	background:#ddd;
+}
+.banner .banner-news .lists li a {
+	padding-left:4px;
+	color:#666666;
+}
+.banner .banner-news .lists li a:hover {
+	color:#f4790c;
+}
+.banner .banner-news .lists li:hover:before{
+	background:#f4790c;
+}
+/*页面content区域*/
+/*content部分product区*/
+.content .product {
+	margin-top:20px;
+	overflow:hidden;
+}
+.content .product li{
+	float:left;
+}
+.content .product li a{
+	width: 245px;
+	height: 197px;
+	display: block;
+	background: url(../images/icon.png) no-repeat 0 -100px;
+}
+.content .product li a.li2 {
+    background: url(../images/icon.png) no-repeat -245px -100px;
+}
+.content .product li a.li3 {
+    background: url(../images/icon.png) no-repeat -490px -100px;
+}
+.content .product li a.li4 {
+    background: url(../images/icon.png) no-repeat -735px -100px;
+}
+.content .product li a:hover{
+	background-position: 0 -300px;
+}
+.content .product li a.li2:hover{
+	background-position: -245px -300px;
+}
+.content .product li a.li3:hover{
+	background-position: -490px -300px;
+}
+.content .product li a.li4:hover{
+	background-position: -735px -300px;
+}
+/*content部分biggame区*/
+.content .biggame {
+	height: 288px;
+	margin-top:60px;
+	padding-left:18px;
+}
+.content .biggame li {
+	position:relative;
+	float:left;
+	width: 276px;
+	height: 277px;
+	padding-top:7px;
+	padding-left:8px;
+	margin-right:35px;
+	border:1px solid #c0c0c0;
+	border-radius:16px;
+}
+.content .biggame li i {
+	position:absolute;
+	left:50%;
+	top:-42px;
+	margin-left:-36px;
+	width: 73px;
+	height: 76px;
+   background:url(../images/icon.png) no-repeat -64px 0;
+}
+.content .biggame li img{
+    width: 268px;
+    height: 271px;
+}
+.content .biggame li p {
+	position:absolute;
+	bottom:0;
+	left:0;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 100%;
+	border-bottom-right-radius:16px;
+	border-bottom-left-radius:16px;
+	background: #ffb910;
+	display:none;
+}
+.content .biggame li p a{
+	color:#fff;
+	padding-left:22px;
+	background:url(../images/icon.png) no-repeat -260px -39px;
+}
+.content .biggame li:hover {
+	border:1px solid #ff8b10;
+}
+.content .biggame li:hover i {
+    background-position:-164px 0;
+}
+.content .biggame li:hover p {
+    display:block;
+}
+/*content部分games展示区*/
+.content .games {
+	margin-top:18px;
+}
+.content .games .game-li {
+	width: 100%;
+	height: 40px;
+	border:1px solid #ddd;
+}
+.content .games .game-li li {
+	float:left;
+	width: 120px;
+	color:#666;
+	cursor:pointer;
+	text-align: center;
+	line-height: 40px;
+}
+.content .games .game-li li:hover {
+	color:#ffb910;
+	border-bottom:1px solid #ffb910;
+}
+.content .games .game-li li.more {
+	float:right;
+    width: 16px;
+	height:16px;
+    margin-right: 16px;
+    margin-top: 15px;
+}
+.content .games .game-li li a {
+	display: block;
+	width: 16px;
+	height: 16px;
+    background: url(../images/icon.png) no-repeat -300px 0;
+}
+.content .games .game-li li.more:hover {
+	border-bottom:0;
+}	
+.content .games .show {
+	width: 100%;
+	overflow:hidden;
+}
+.content .games .show li {
+	float:left;
+	width: 227px;
+	height: 120px;
+	padding-top:20px;
+	padding-left:16px;
+	border:1px solid #fff;
+}
+.content .games .show li:hover {
+	border-color:#ffb910;
+}
+.content .games .show li img {
+	float:left;
+	width: 100px;
+	height: 100px;
+}
+.content .games .show li p.right {
+	float:left;
+	width: 76px;
+	margin-left:14px;
+	padding-top:8px;
+	font-size: 16px;
+}
+.content .games .show li p.right a {
+	display: block;
+	color:#333;
+}
+.content .games .show li p.right span {
+	color:#999;
+	font-size: 12px;
+}
+.content .games .show li p.right i {
+	display: block;
+	margin-top:6px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/sys_1.png) no-repeat 0 -2px;
+}
+/*content部分partner部分-合作开发商*/
+.content .partner {
+	margin-top:18px;
+	overflow:hidden;
+}
+.content .partner li {
+	float:left;
+	width: 310px;
+	height: 118px;
+	margin-right:22px;
+	border:1px solid #ddd;
+}
+.content .partner li p.top {
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	padding-left:11px;
+	margin-bottom:10px;
+	border-bottom:1px solid #ddd;
+}
+.content .partner li p.top a {
+	float:right;
+	width: 40px;
+	height: 40px;
+	background: url(../images/icon.png) -287px 11px;
+}
+.content .partner li img {
+	width: 132px;
+	height: 52px;
+}
+.content .partner li img.left {
+	margin-left:11px;
+	margin-right:22px;
+}
+/*联系我们部分*/
+.contact {
+	width: 100%;
+	height: 256px;
+	margin-top:20px;
+	padding-top:24px;
+	background: #eee;
+}
+.contact .con-info {
+   float:left;
+}
+.contact .con-info li {
+	width: 358px;
+	height: 61px;
+	background: pink;
+	padding-left:82px;
+	line-height: 30px;
+	margin-bottom:22px;
+	color:#666;
+	background: url(../images/icon.png) no-repeat -920px -499px;
+}
+.contact .con-info li.con2 {
+	background-position: -920px -559px;
+}
+.contact .con-info li.con3 {
+	background-position: -920px -619px;
+}
+.contact .weixin {
+	float:right;
+	width: 170px;
+	margin-top:8px;
+    text-align: center;
+    color:#666;
+}
+.contact .weixin img {
+	width: 170px;
+	height: 170px;
+}
